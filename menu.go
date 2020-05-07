@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// PrintMenu prints messages with or without a number
+// PrintMenu prints menu options with or without a number
 func PrintMenu(menu map[string]string, showNumber bool) {
 	for i := 1; i <= len(menu); i++ {
 		if showNumber == true {
